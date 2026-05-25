@@ -1,0 +1,363 @@
+/* ================================= */
+/* AnkitBooking.com CSS FILE */
+/* Save This File As style.css */
+/* ================================= */
+
+
+/* Default Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+/* Body Styling */
+body {
+  background: #f3f4f6;
+}
+
+
+/* ================= Header Styling ================= */
+
+header {
+  background: linear-gradient(90deg, #2563eb, #1e40af);
+
+  color: white;
+
+  padding: 20px 50px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+
+
+/* Logo Box */
+.logo-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+/* Logo Image */
+.logo-box img {
+  width: 60px;
+  height: 60px;
+
+  border-radius: 50%;
+
+  background: white;
+
+  padding: 8px;
+}
+
+
+/* Navigation Links */
+nav a {
+  color: white;
+
+  text-decoration: none;
+
+  margin-left: 20px;
+
+  font-size: 16px;
+
+  transition: 0.3s;
+}
+
+
+/* Hover Effect */
+nav a:hover {
+  color: #facc15;
+}
+
+
+/* ================= Hero Section ================= */
+
+.hero {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  padding: 70px 50px;
+
+  background: linear-gradient(135deg, #2563eb, #4f46e5);
+
+  color: white;
+}
+
+
+/* Left Text Area */
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+
+/* Main Heading */
+.hero-text h2 {
+  font-size: 55px;
+
+  margin-bottom: 20px;
+}
+
+
+/* Paragraph */
+.hero-text p {
+  font-size: 18px;
+
+  margin-bottom: 25px;
+
+  line-height: 1.6;
+}
+
+
+/* Explore Button */
+.hero-text button {
+
+  padding: 14px 28px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: white;
+
+  color: #2563eb;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+
+/* Button Hover */
+.hero-text button:hover {
+  transform: scale(1.05);
+}
+
+
+/* Right Image Area */
+.hero-image {
+  flex: 1;
+
+  min-width: 300px;
+
+  text-align: center;
+}
+
+
+/* Hero Image */
+.hero-image img {
+
+  width: 100%;
+
+  max-width: 500px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+
+/* ================= Statistics Cards ================= */
+
+.stats {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+  gap: 20px;
+
+  padding: 50px;
+}
+
+
+/* Individual Card */
+.card {
+
+  background: white;
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+  transition: 0.3s;
+}
+
+
+/* Hover Animation */
+.card:hover {
+  transform: translateY(-5px);
+}
+
+
+/* Card Title */
+.card h3 {
+
+  margin-bottom: 10px;
+
+  color: gray;
+}
+
+
+/* Card Number */
+.card p {
+
+  font-size: 32px;
+
+  font-weight: bold;
+}
+
+
+/* ================= Services Section ================= */
+
+.services {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+  gap: 25px;
+
+  padding: 50px;
+}
+
+
+/* Service Card */
+.service-card {
+
+  background: white;
+
+  border-radius: 20px;
+
+  overflow: hidden;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+  transition: 0.3s;
+}
+
+
+/* Hover Effect */
+.service-card:hover {
+  transform: translateY(-8px);
+}
+
+
+/* Service Images */
+.service-card img {
+
+  width: 100%;
+
+  height: 220px;
+
+  object-fit: cover;
+}
+
+
+/* Service Heading */
+.service-card h3 {
+  padding: 20px 20px 10px;
+}
+
+
+/* Service Paragraph */
+.service-card p {
+
+  padding: 0 20px 20px;
+
+  color: #555;
+
+  line-height: 1.6;
+}
+
+
+/* Service Button */
+.service-card button {
+
+  margin: 0 20px 20px;
+
+  padding: 12px 18px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: #2563eb;
+
+  color: white;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+
+/* Button Hover */
+.service-card button:hover {
+  background: #1e40af;
+}
+
+
+/* ================= Footer Styling ================= */
+
+footer {
+
+  background: #111827;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 35px;
+}
+
+
+/* Footer Text */
+footer p {
+  margin-top: 10px;
+}
+
+
+/* ================= Responsive Design ================= */
+
+@media(max-width: 768px) {
+
+  header {
+    padding: 20px;
+  }
+
+  .hero {
+    padding: 50px 20px;
+  }
+
+  .hero-text h2 {
+    font-size: 38px;
+  }
+
+  .stats,
+  .services {
+    padding: 30px 20px;
+  }
+
+}
