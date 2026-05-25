@@ -1,0 +1,197 @@
+===============================
+AnkitBooking.com Documentation
+===============================
+
+
+1. Project Name
+----------------
+AnkitBooking.com
+
+
+2. Project Type
+----------------
+Travel Booking Dashboard Website
+
+
+3. Technologies Used
+---------------------
+- HTML5
+- CSS3
+- JavaScript
+
+
+4. Project Description
+-----------------------
+AnkitBooking.com is a modern travel booking dashboard website created using HTML, CSS and JavaScript.
+
+This project provides a travel booking user interface where users can:
+- Search destinations
+- Explore hotels
+- View flights
+- Explore holiday packages
+- View booking statistics
+
+The website is fully responsive and beginner friendly.
+
+
+5. Main Features
+-----------------
+✓ Responsive Design
+✓ Modern User Interface
+✓ Travel Hero Section
+✓ Search Bar
+✓ Destination Gallery
+✓ Hotel Booking Cards
+✓ Flight Booking Section
+✓ Animated Booking Counter
+✓ Interactive Buttons
+✓ Human Style Comments
+
+
+6. Website Sections
+--------------------
+
+A. Header Section
+------------------
+Contains:
+- Website logo
+- Website title
+- Navigation menu
+
+
+B. Hero Section
+----------------
+Contains:
+- Travel heading
+- Travel description
+- Explore button
+- Travel image
+
+
+C. Statistics Section
+----------------------
+Contains:
+- Total bookings
+- Hotels
+- Flights
+- Revenue cards
+
+
+D. Search Section
+------------------
+Allows users to:
+- Search hotels
+- Search cities
+- Search flights
+
+
+E. Gallery Section
+-------------------
+Contains travel destination images:
+- Dubai
+- Goa
+- Manali
+
+
+F. Services Section
+--------------------
+Contains:
+- Luxury Rooms
+- Flight Booking
+- Hotel Reservation
+
+
+G. Footer Section
+------------------
+Contains:
+- Website name
+- Contact email
+
+
+7. JavaScript Functions
+------------------------
+
+A. showMessage()
+-----------------
+Used to display popup alert messages when buttons are clicked.
+
+
+B. searchDestination()
+-----------------------
+Used to search destinations entered by the user.
+
+
+C. Dynamic Booking Counter
+---------------------------
+Automatically increases booking numbers every 3 seconds.
+
+
+8. CSS Styling
+---------------
+CSS is used for:
+- Layout design
+- Responsive design
+- Colors and gradients
+- Card styling
+- Hover effects
+- Spacing and alignment
+
+
+9. Images Used
+---------------
+Images are used from:
+- Unsplash
+- Flaticon
+
+
+10. Project Folder Structure
+-----------------------------
+
+AnkitBooking/
+│
+├── index.html
+├── style.css
+├── script.js
+└── documentation.txt
+
+
+11. Advantages
+----------------
+- Easy to understand
+- Beginner friendly
+- Responsive design
+- Modern UI
+- Clean code structure
+
+
+12. Future Improvements
+------------------------
+- Login system
+- Booking forms
+- Payment integration
+- Database connection
+- Backend development
+- Real travel API integration
+
+
+13. Project Purpose
+--------------------
+This project is created for:
+- College project
+- Frontend practice
+- Portfolio project
+- Travel website design practice
+
+
+14. Developer Information
+--------------------------
+Developer Name:
+Ankit
+
+Project Name:
+AnkitBooking.com
+
+
+===============================
+End Of Documentation
+===============================
